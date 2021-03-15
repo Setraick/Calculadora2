@@ -145,7 +145,7 @@ namespace Calculadora_2.Controllers
 
                     break;
 
-                case "c":
+                case "C":
                     //ativar o serviço de memoria do HTTP
                     ViewBag.PrimeiroOperando = null;
                     ViewBag.Operador = null;
