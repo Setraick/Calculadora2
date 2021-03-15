@@ -7,10 +7,14 @@
     
 
     <form method="post">
+        <!--adicionar o efeito de 'memoria' no http-->
+        <input type="hidden" readonly="readonly" value="@ViewBag.PrimeiroOperando" name="primeiroOperando" />
+        <input type="hidden" readonly="readonly" value="@ViewBag.Operador" name="operador" />
+        <input type="hidden" readonly="readonly" value="@ViewBag.LimpaVisor" name="limpaVisor" />
         <table border="1">
             <tr>
                 <td colspan="5">
-                    <input type="text" name="visor" readonly="readonly" value="@ViewBag.Resposta" />
+                    <input type="text" name="visor" readonly="readonly" value="@ViewBag.visor" />
                 </td>
             </tr>
             <tr>
